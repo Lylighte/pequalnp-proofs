@@ -1,0 +1,58 @@
+[
+  {
+    "n": 2,
+    "mask": 7,
+    "tries": 24,
+    "found": null,
+    "orbit": 54
+  },
+  {
+    "n": 2,
+    "mask": 19,
+    "tries": 24,
+    "found": null,
+    "orbit": 9
+  },
+  {
+    "n": 2,
+    "mask": 21,
+    "tries": 24,
+    "found": null,
+    "orbit": 18
+  },
+  {
+    "n": 2,
+    "mask": 38,
+    "tries": 24,
+    "found": null,
+    "orbit": 3
+  },
+  {
+    "n": 2,
+    "mask": 15,
+    "tries": 0,
+    "found": null,
+    "orbit": 27
+  },
+  {
+    "n": 2,
+    "mask": 23,
+    "tries": 0,
+    "found": null,
+    "orbit": 54
+  },
+  {
+    "n": 2,
+    "mask": 39,
+    "tries": 0,
+    "found": null,
+    "orbit": 18
+  },
+  {
+    "n": 2,
+    "mask": 53,
+    "tries": 0,
+    "found": null,
+    "orbit": 27
+  }
+]

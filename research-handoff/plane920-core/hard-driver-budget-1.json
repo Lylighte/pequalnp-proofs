@@ -1,0 +1,12 @@
+[
+  {
+    "budget": 7,
+    "ok": false,
+    "memoSize": 0
+  },
+  {
+    "budget": 8,
+    "ok": true,
+    "memoSize": 431
+  }
+]

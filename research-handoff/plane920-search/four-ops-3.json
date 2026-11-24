@@ -1,0 +1,256 @@
+{
+  "ids": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "arg": 3,
+  "limit": 10000,
+  "rows": [
+    75,
+    78,
+    83,
+    86,
+    105,
+    108,
+    116,
+    142,
+    53,
+    60,
+    120,
+    338,
+    549,
+    609,
+    616,
+    774,
+    15,
+    46,
+    170,
+    402,
+    525,
+    649,
+    680,
+    788,
+    23,
+    27,
+    57,
+    135
+  ],
+  "results": [
+    {
+      "ops": 7,
+      "status": "UNKNOWN",
+      "ms": 325,
+      "rows": 48
+    },
+    {
+      "ops": 11,
+      "status": "UNKNOWN",
+      "ms": 294,
+      "rows": 48
+    },
+    {
+      "ops": 13,
+      "status": "UNKNOWN",
+      "ms": 319,
+      "rows": 48
+    },
+    {
+      "ops": 14,
+      "status": "UNKNOWN",
+      "ms": 319,
+      "rows": 48
+    },
+    {
+      "ops": 19,
+      "status": "UNKNOWN",
+      "ms": 317,
+      "rows": 48
+    },
+    {
+      "ops": 21,
+      "status": "UNKNOWN",
+      "ms": 303,
+      "rows": 48
+    },
+    {
+      "ops": 22,
+      "status": "UNKNOWN",
+      "ms": 310,
+      "rows": 48
+    },
+    {
+      "ops": 25,
+      "status": "UNKNOWN",
+      "ms": 316,
+      "rows": 48
+    },
+    {
+      "ops": 26,
+      "status": "UNKNOWN",
+      "ms": 287,
+      "rows": 48
+    },
+    {
+      "ops": 28,
+      "status": "UNSAT",
+      "ms": 264,
+      "rows": 48
+    },
+    {
+      "ops": 35,
+      "status": "UNKNOWN",
+      "ms": 294,
+      "rows": 48
+    },
+    {
+      "ops": 37,
+      "status": "UNKNOWN",
+      "ms": 309,
+      "rows": 48
+    },
+    {
+      "ops": 38,
+      "status": "UNKNOWN",
+      "ms": 313,
+      "rows": 48
+    },
+    {
+      "ops": 41,
+      "status": "UNKNOWN",
+      "ms": 313,
+      "rows": 48
+    },
+    {
+      "ops": 42,
+      "status": "UNSAT",
+      "ms": 241,
+      "rows": 48
+    },
+    {
+      "ops": 44,
+      "status": "UNSAT",
+      "ms": 108,
+      "rows": 48
+    },
+    {
+      "ops": 49,
+      "status": "UNSAT",
+      "ms": 209,
+      "rows": 48
+    },
+    {
+      "ops": 50,
+      "status": "UNSAT",
+      "ms": 104,
+      "rows": 48
+    },
+    {
+      "ops": 52,
+      "status": "UNSAT",
+      "ms": 55,
+      "rows": 48
+    },
+    {
+      "ops": 56,
+      "status": "UNSAT",
+      "ms": 35,
+      "rows": 48
+    },
+    {
+      "ops": 67,
+      "status": "UNKNOWN",
+      "ms": 304,
+      "rows": 48
+    },
+    {
+      "ops": 69,
+      "status": "UNSAT",
+      "ms": 260,
+      "rows": 48
+    },
+    {
+      "ops": 70,
+      "status": "UNSAT",
+      "ms": 129,
+      "rows": 48
+    },
+    {
+      "ops": 73,
+      "status": "UNSAT",
+      "ms": 153,
+      "rows": 48
+    },
+    {
+      "ops": 74,
+      "status": "UNSAT",
+      "ms": 88,
+      "rows": 48
+    },
+    {
+      "ops": 76,
+      "status": "UNSAT",
+      "ms": 57,
+      "rows": 48
+    },
+    {
+      "ops": 81,
+      "status": "UNSAT",
+      "ms": 71,
+      "rows": 48
+    },
+    {
+      "ops": 82,
+      "status": "UNSAT",
+      "ms": 53,
+      "rows": 48
+    },
+    {
+      "ops": 84,
+      "status": "UNSAT",
+      "ms": 40,
+      "rows": 48
+    },
+    {
+      "ops": 88,
+      "status": "UNSAT",
+      "ms": 35,
+      "rows": 48
+    },
+    {
+      "ops": 97,
+      "status": "UNSAT",
+      "ms": 43,
+      "rows": 48
+    },
+    {
+      "ops": 98,
+      "status": "UNSAT",
+      "ms": 38,
+      "rows": 48
+    },
+    {
+      "ops": 100,
+      "status": "UNSAT",
+      "ms": 56,
+      "rows": 48
+    },
+    {
+      "ops": 104,
+      "status": "UNSAT",
+      "ms": 40,
+      "rows": 48
+    },
+    {
+      "ops": 112,
+      "status": "UNSAT",
+      "ms": 43,
+      "rows": 48
+    }
+  ],
+  "counts": {
+    "UNKNOWN": 14,
+    "UNSAT": 21
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "subsets": 8191,
+  "bestBound": 21,
+  "attainedExactlyByPencils": 13,
+  "winningMasks": [
+    141,
+    282,
+    564,
+    833,
+    1128,
+    1666,
+    2083,
+    2256,
+    3332,
+    4166,
+    4512,
+    5137,
+    6664
+  ]
+}

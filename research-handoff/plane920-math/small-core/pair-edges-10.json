@@ -1,0 +1,951 @@
+{
+  "sums": {
+    "4": {
+      "tested": 1365,
+      "passedCost": 1365,
+      "passedSeparate": 30,
+      "least": 9
+    },
+    "5": {
+      "tested": 3003,
+      "passedCost": 3003,
+      "passedSeparate": 0,
+      "least": 10
+    },
+    "6": {
+      "tested": 5005,
+      "passedCost": 4935,
+      "passedSeparate": 0,
+      "least": 18
+    },
+    "7": {
+      "tested": 6435,
+      "passedCost": 3240,
+      "passedSeparate": 0,
+      "least": 24
+    },
+    "8": {
+      "tested": 6435,
+      "passedCost": 270,
+      "passedSeparate": 0,
+      "least": 28
+    },
+    "9": {
+      "tested": 5005,
+      "passedCost": 60,
+      "passedSeparate": 0,
+      "least": 30
+    },
+    "10": {
+      "tested": 3003,
+      "passedCost": 6,
+      "passedSeparate": 0,
+      "least": 30
+    }
+  },
+  "recs": [
+    {
+      "graph": 15,
+      "k": 4,
+      "orbit": 180,
+      "lower": 9,
+      "yes": false
+    },
+    {
+      "graph": 30,
+      "k": 4,
+      "orbit": 45,
+      "lower": 10,
+      "yes": false
+    },
+    {
+      "graph": 31,
+      "k": 5,
+      "orbit": 90,
+      "lower": 10,
+      "yes": false
+    },
+    {
+      "graph": 63,
+      "k": 6,
+      "orbit": 15,
+      "lower": 18,
+      "yes": false
+    },
+    {
+      "graph": 75,
+      "k": 4,
+      "orbit": 30,
+      "lower": 12,
+      "yes": true
+    },
+    {
+      "graph": 77,
+      "k": 4,
+      "orbit": 360,
+      "lower": 11,
+      "yes": false
+    },
+    {
+      "graph": 79,
+      "k": 5,
+      "orbit": 180,
+      "lower": 17,
+      "yes": false
+    },
+    {
+      "graph": 86,
+      "k": 4,
+      "orbit": 360,
+      "lower": 10,
+      "yes": false
+    },
+    {
+      "graph": 87,
+      "k": 5,
+      "orbit": 360,
+      "lower": 12,
+      "yes": false
+    },
+    {
+      "graph": 94,
+      "k": 5,
+      "orbit": 360,
+      "lower": 14,
+      "yes": false
+    },
+    {
+      "graph": 95,
+      "k": 6,
+      "orbit": 360,
+      "lower": 18,
+      "yes": false
+    },
+    {
+      "graph": 116,
+      "k": 4,
+      "orbit": 60,
+      "lower": 22,
+      "yes": false
+    },
+    {
+      "graph": 117,
+      "k": 5,
+      "orbit": 360,
+      "lower": 22,
+      "yes": false
+    },
+    {
+      "graph": 119,
+      "k": 6,
+      "orbit": 360,
+      "lower": 22,
+      "yes": false
+    },
+    {
+      "graph": 127,
+      "k": 7,
+      "orbit": 120,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 222,
+      "k": 6,
+      "orbit": 60,
+      "lower": 22,
+      "yes": false
+    },
+    {
+      "graph": 223,
+      "k": 7,
+      "orbit": 60,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 235,
+      "k": 6,
+      "orbit": 90,
+      "lower": 26,
+      "yes": false
+    },
+    {
+      "graph": 236,
+      "k": 5,
+      "orbit": 72,
+      "lower": 20,
+      "yes": false
+    },
+    {
+      "graph": 237,
+      "k": 6,
+      "orbit": 360,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 239,
+      "k": 7,
+      "orbit": 360,
+      "lower": 26,
+      "yes": false
+    },
+    {
+      "graph": 254,
+      "k": 7,
+      "orbit": 180,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 255,
+      "k": 8,
+      "orbit": 180,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 507,
+      "k": 8,
+      "orbit": 90,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 511,
+      "k": 9,
+      "orbit": 60,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1023,
+      "k": 10,
+      "orbit": 6,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1099,
+      "k": 5,
+      "orbit": 6,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1100,
+      "k": 4,
+      "orbit": 60,
+      "lower": 15,
+      "yes": false
+    },
+    {
+      "graph": 1101,
+      "k": 5,
+      "orbit": 120,
+      "lower": 20,
+      "yes": false
+    },
+    {
+      "graph": 1103,
+      "k": 6,
+      "orbit": 60,
+      "lower": 34,
+      "yes": false
+    },
+    {
+      "graph": 1108,
+      "k": 4,
+      "orbit": 90,
+      "lower": 10,
+      "yes": false
+    },
+    {
+      "graph": 1109,
+      "k": 5,
+      "orbit": 90,
+      "lower": 15,
+      "yes": false
+    },
+    {
+      "graph": 1110,
+      "k": 5,
+      "orbit": 360,
+      "lower": 16,
+      "yes": false
+    },
+    {
+      "graph": 1111,
+      "k": 6,
+      "orbit": 360,
+      "lower": 21,
+      "yes": false
+    },
+    {
+      "graph": 1118,
+      "k": 6,
+      "orbit": 180,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1119,
+      "k": 7,
+      "orbit": 180,
+      "lower": 35,
+      "yes": false
+    },
+    {
+      "graph": 1140,
+      "k": 5,
+      "orbit": 60,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1141,
+      "k": 6,
+      "orbit": 180,
+      "lower": 27,
+      "yes": false
+    },
+    {
+      "graph": 1143,
+      "k": 7,
+      "orbit": 180,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1151,
+      "k": 8,
+      "orbit": 60,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 1182,
+      "k": 6,
+      "orbit": 180,
+      "lower": 22,
+      "yes": false
+    },
+    {
+      "graph": 1183,
+      "k": 7,
+      "orbit": 180,
+      "lower": 27,
+      "yes": false
+    },
+    {
+      "graph": 1185,
+      "k": 4,
+      "orbit": 180,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1187,
+      "k": 5,
+      "orbit": 360,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1191,
+      "k": 6,
+      "orbit": 120,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1194,
+      "k": 5,
+      "orbit": 180,
+      "lower": 26,
+      "yes": false
+    },
+    {
+      "graph": 1195,
+      "k": 6,
+      "orbit": 360,
+      "lower": 29,
+      "yes": false
+    },
+    {
+      "graph": 1196,
+      "k": 5,
+      "orbit": 360,
+      "lower": 24,
+      "yes": false
+    },
+    {
+      "graph": 1197,
+      "k": 6,
+      "orbit": 360,
+      "lower": 27,
+      "yes": false
+    },
+    {
+      "graph": 1198,
+      "k": 6,
+      "orbit": 720,
+      "lower": 26,
+      "yes": false
+    },
+    {
+      "graph": 1199,
+      "k": 7,
+      "orbit": 720,
+      "lower": 29,
+      "yes": false
+    },
+    {
+      "graph": 1214,
+      "k": 7,
+      "orbit": 180,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 1215,
+      "k": 8,
+      "orbit": 180,
+      "lower": 31,
+      "yes": false
+    },
+    {
+      "graph": 1246,
+      "k": 7,
+      "orbit": 120,
+      "lower": 33,
+      "yes": false
+    },
+    {
+      "graph": 1247,
+      "k": 8,
+      "orbit": 120,
+      "lower": 41,
+      "yes": false
+    },
+    {
+      "graph": 1259,
+      "k": 7,
+      "orbit": 90,
+      "lower": 41,
+      "yes": false
+    },
+    {
+      "graph": 1260,
+      "k": 6,
+      "orbit": 360,
+      "lower": 26,
+      "yes": false
+    },
+    {
+      "graph": 1261,
+      "k": 7,
+      "orbit": 720,
+      "lower": 32,
+      "yes": false
+    },
+    {
+      "graph": 1263,
+      "k": 8,
+      "orbit": 360,
+      "lower": 41,
+      "yes": false
+    },
+    {
+      "graph": 1268,
+      "k": 6,
+      "orbit": 360,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 1269,
+      "k": 7,
+      "orbit": 360,
+      "lower": 31,
+      "yes": false
+    },
+    {
+      "graph": 1270,
+      "k": 7,
+      "orbit": 720,
+      "lower": 31,
+      "yes": false
+    },
+    {
+      "graph": 1271,
+      "k": 8,
+      "orbit": 720,
+      "lower": 34,
+      "yes": false
+    },
+    {
+      "graph": 1278,
+      "k": 8,
+      "orbit": 360,
+      "lower": 37,
+      "yes": false
+    },
+    {
+      "graph": 1279,
+      "k": 9,
+      "orbit": 360,
+      "lower": 43,
+      "yes": false
+    },
+    {
+      "graph": 1456,
+      "k": 5,
+      "orbit": 45,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 1457,
+      "k": 6,
+      "orbit": 360,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 1459,
+      "k": 7,
+      "orbit": 180,
+      "lower": 34,
+      "yes": false
+    },
+    {
+      "graph": 1460,
+      "k": 6,
+      "orbit": 90,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 1461,
+      "k": 7,
+      "orbit": 360,
+      "lower": 31,
+      "yes": false
+    },
+    {
+      "graph": 1463,
+      "k": 8,
+      "orbit": 180,
+      "lower": 34,
+      "yes": false
+    },
+    {
+      "graph": 1465,
+      "k": 7,
+      "orbit": 360,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1467,
+      "k": 8,
+      "orbit": 360,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 1468,
+      "k": 7,
+      "orbit": 360,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 1469,
+      "k": 8,
+      "orbit": 720,
+      "lower": 33,
+      "yes": false
+    },
+    {
+      "graph": 1471,
+      "k": 9,
+      "orbit": 360,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 1531,
+      "k": 9,
+      "orbit": 90,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 1532,
+      "k": 8,
+      "orbit": 180,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 1533,
+      "k": 9,
+      "orbit": 360,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 1535,
+      "k": 10,
+      "orbit": 180,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 1972,
+      "k": 7,
+      "orbit": 15,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 1973,
+      "k": 8,
+      "orbit": 120,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 1975,
+      "k": 9,
+      "orbit": 180,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 1983,
+      "k": 10,
+      "orbit": 120,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 3294,
+      "k": 8,
+      "orbit": 15,
+      "lower": 50,
+      "yes": false
+    },
+    {
+      "graph": 3295,
+      "k": 9,
+      "orbit": 15,
+      "lower": 55,
+      "yes": false
+    },
+    {
+      "graph": 3306,
+      "k": 7,
+      "orbit": 180,
+      "lower": 34,
+      "yes": false
+    },
+    {
+      "graph": 3307,
+      "k": 8,
+      "orbit": 180,
+      "lower": 43,
+      "yes": false
+    },
+    {
+      "graph": 3308,
+      "k": 7,
+      "orbit": 180,
+      "lower": 28,
+      "yes": false
+    },
+    {
+      "graph": 3309,
+      "k": 8,
+      "orbit": 180,
+      "lower": 37,
+      "yes": false
+    },
+    {
+      "graph": 3310,
+      "k": 8,
+      "orbit": 360,
+      "lower": 40,
+      "yes": false
+    },
+    {
+      "graph": 3311,
+      "k": 9,
+      "orbit": 360,
+      "lower": 46,
+      "yes": false
+    },
+    {
+      "graph": 3326,
+      "k": 9,
+      "orbit": 90,
+      "lower": 52,
+      "yes": false
+    },
+    {
+      "graph": 3327,
+      "k": 10,
+      "orbit": 90,
+      "lower": 55,
+      "yes": false
+    },
+    {
+      "graph": 3440,
+      "k": 6,
+      "orbit": 60,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 3441,
+      "k": 7,
+      "orbit": 360,
+      "lower": 30,
+      "yes": false
+    },
+    {
+      "graph": 3443,
+      "k": 8,
+      "orbit": 360,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 3447,
+      "k": 9,
+      "orbit": 120,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 3448,
+      "k": 7,
+      "orbit": 180,
+      "lower": 33,
+      "yes": false
+    },
+    {
+      "graph": 3449,
+      "k": 8,
+      "orbit": 720,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 3451,
+      "k": 9,
+      "orbit": 360,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 3452,
+      "k": 8,
+      "orbit": 360,
+      "lower": 33,
+      "yes": false
+    },
+    {
+      "graph": 3453,
+      "k": 9,
+      "orbit": 720,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3455,
+      "k": 10,
+      "orbit": 360,
+      "lower": 48,
+      "yes": false
+    },
+    {
+      "graph": 3576,
+      "k": 8,
+      "orbit": 90,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3577,
+      "k": 9,
+      "orbit": 180,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3578,
+      "k": 9,
+      "orbit": 360,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 3579,
+      "k": 10,
+      "orbit": 360,
+      "lower": 51,
+      "yes": false
+    },
+    {
+      "graph": 3582,
+      "k": 10,
+      "orbit": 180,
+      "lower": 54,
+      "yes": false
+    },
+    {
+      "graph": 3873,
+      "k": 6,
+      "orbit": 10,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3875,
+      "k": 7,
+      "orbit": 90,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3879,
+      "k": 8,
+      "orbit": 180,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3885,
+      "k": 8,
+      "orbit": 180,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3887,
+      "k": 9,
+      "orbit": 360,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3903,
+      "k": 10,
+      "orbit": 90,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3947,
+      "k": 9,
+      "orbit": 60,
+      "lower": 48,
+      "yes": false
+    },
+    {
+      "graph": 3948,
+      "k": 8,
+      "orbit": 180,
+      "lower": 36,
+      "yes": false
+    },
+    {
+      "graph": 3949,
+      "k": 9,
+      "orbit": 360,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 3950,
+      "k": 9,
+      "orbit": 180,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 3951,
+      "k": 10,
+      "orbit": 360,
+      "lower": 48,
+      "yes": false
+    },
+    {
+      "graph": 3958,
+      "k": 9,
+      "orbit": 360,
+      "lower": 39,
+      "yes": false
+    },
+    {
+      "graph": 3959,
+      "k": 10,
+      "orbit": 360,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 3966,
+      "k": 10,
+      "orbit": 360,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 7672,
+      "k": 9,
+      "orbit": 10,
+      "lower": 57,
+      "yes": false
+    },
+    {
+      "graph": 7673,
+      "k": 10,
+      "orbit": 60,
+      "lower": 57,
+      "yes": false
+    },
+    {
+      "graph": 7902,
+      "k": 10,
+      "orbit": 45,
+      "lower": 54,
+      "yes": false
+    },
+    {
+      "graph": 7915,
+      "k": 10,
+      "orbit": 72,
+      "lower": 45,
+      "yes": false
+    },
+    {
+      "graph": 7916,
+      "k": 9,
+      "orbit": 60,
+      "lower": 42,
+      "yes": false
+    },
+    {
+      "graph": 7917,
+      "k": 10,
+      "orbit": 360,
+      "lower": 48,
+      "yes": false
+    }
+  ]
+}

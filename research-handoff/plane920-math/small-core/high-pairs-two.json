@@ -1,0 +1,44 @@
+{
+  "hist": {
+    "6-5-6-5": 2,
+    "6-6-6-6": 2
+  },
+  "rr": [
+    {
+      "a": 63,
+      "b": 1984,
+      "privateA": 63,
+      "privateB": 1984,
+      "afterRaw": 2,
+      "orbitA": 234,
+      "orbitB": 12
+    },
+    {
+      "a": 63,
+      "b": 2016,
+      "privateA": 63,
+      "privateB": 2016,
+      "afterRaw": 2,
+      "orbitA": 234,
+      "orbitB": 12
+    },
+    {
+      "a": 63,
+      "b": 3008,
+      "privateA": 63,
+      "privateB": 3008,
+      "afterRaw": 2,
+      "orbitA": 234,
+      "orbitB": 3
+    },
+    {
+      "a": 63,
+      "b": 4032,
+      "privateA": 63,
+      "privateB": 4032,
+      "afterRaw": 1,
+      "orbitA": 234,
+      "orbitB": 3
+    }
+  ]
+}

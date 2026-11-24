@@ -1,0 +1,20 @@
+{
+  "ids": [
+    0,
+    1,
+    5
+  ],
+  "budget": 8,
+  "c": 50000,
+  "rows": [],
+  "runs": [
+    {
+      "status": "UNSAT",
+      "ms": 72,
+      "vertices": 10,
+      "rows": 15,
+      "vars": 545,
+      "clauses": 7619
+    }
+  ]
+}

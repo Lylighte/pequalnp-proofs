@@ -1,0 +1,91 @@
+{
+  "partitions": 4226,
+  "maxComponents": 3,
+  "countsByK": {
+    "1": 1,
+    "2": 4095,
+    "3": 130
+  },
+  "categories": {
+    "1:13": {
+      "k": 1,
+      "partitions": 1,
+      "minCross": 0,
+      "maxCross": 0,
+      "minHidden": 12,
+      "maxHidden": 12
+    },
+    "2:12,1": {
+      "k": 2,
+      "partitions": 13,
+      "minCross": 4,
+      "maxCross": 4,
+      "minHidden": 11,
+      "maxHidden": 11
+    },
+    "2:11,2": {
+      "k": 2,
+      "partitions": 78,
+      "minCross": 7,
+      "maxCross": 7,
+      "minHidden": 11,
+      "maxHidden": 11
+    },
+    "2:10,3": {
+      "k": 2,
+      "partitions": 286,
+      "minCross": 9,
+      "maxCross": 10,
+      "minHidden": 11,
+      "maxHidden": 12
+    },
+    "2:9,4": {
+      "k": 2,
+      "partitions": 715,
+      "minCross": 10,
+      "maxCross": 12,
+      "minHidden": 14,
+      "maxHidden": 16
+    },
+    "2:8,5": {
+      "k": 2,
+      "partitions": 1287,
+      "minCross": 11,
+      "maxCross": 12,
+      "minHidden": 16,
+      "maxHidden": 18
+    },
+    "2:7,6": {
+      "k": 2,
+      "partitions": 1716,
+      "minCross": 11,
+      "maxCross": 13,
+      "minHidden": 16,
+      "maxHidden": 20
+    },
+    "3:9,3,1": {
+      "k": 3,
+      "partitions": 52,
+      "minCross": 13,
+      "maxCross": 13,
+      "minHidden": 14,
+      "maxHidden": 14
+    },
+    "3:9,2,2": {
+      "k": 3,
+      "partitions": 39,
+      "minCross": 13,
+      "maxCross": 13,
+      "minHidden": 14,
+      "maxHidden": 14
+    },
+    "3:6,6,1": {
+      "k": 3,
+      "partitions": 39,
+      "minCross": 13,
+      "maxCross": 13,
+      "minHidden": 22,
+      "maxHidden": 22
+    }
+  }
+}

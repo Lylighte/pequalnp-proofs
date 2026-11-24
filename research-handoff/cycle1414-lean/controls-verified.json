@@ -1,0 +1,69 @@
+{
+  "checked": {
+    "standard": {
+      "cycle": true,
+      "cycleErrors": 0,
+      "tight": {
+        "p": 0,
+        "b": 0,
+        "elims": [
+          0,
+          6,
+          8
+        ],
+        "kinds": [
+          [
+            "wire",
+            2
+          ],
+          [
+            "const",
+            0
+          ],
+          [
+            "wire",
+            12
+          ]
+        ]
+      },
+      "counts": [
+        3,
+        3,
+        2,
+        1,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    "loose": {
+      "cycle": false,
+      "cycleErrors": 93,
+      "tight": null,
+      "counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  "sensitivity": 84
+}

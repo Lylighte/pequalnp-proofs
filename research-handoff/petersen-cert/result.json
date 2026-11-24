@@ -1,0 +1,19 @@
+{
+  "id": "15-593",
+  "orbitSize": 60,
+  "rawFingerprint": "15e02261d4908037077a838dcb9115b0026902e2d1492c8fe49e9d3b9b13b9a5",
+  "cnfBytes": 376619,
+  "cnfSHA256": "6d5240f45e1c25be6ecfa941e9da3b7cfa09473d79a92caa37acfdc257bc9230",
+  "lratBytes": 6471884,
+  "lratSHA256": "76ba512ed546171e9e435ada1ccda6734a929c4a01992cdb938376534bfb26a4",
+  "solverMs": 1473,
+  "checkerMs": 1319,
+  "verifier": {
+    "check": true,
+    "dimacsRoundTrip": true,
+    "emptyTraceRejected": true,
+    "clauses": 26400,
+    "actions": 99487
+  },
+  "common": "Runtime computed by the Lean Std LRAT checker. No new kernel theorem on this CNF or circuit encoding is claimed."
+}

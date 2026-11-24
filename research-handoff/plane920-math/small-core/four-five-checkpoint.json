@@ -1,0 +1,32 @@
+{
+  "note": "Stopped all local probes when session reserve reached 15 percent; coverage is an intermediate classified-signature count, not a completed four-target lower bound.",
+  "statuses": {
+    "3-RELAXED": 53,
+    "2-RELAXED": 8,
+    "3-UNKNOWN": 212,
+    "1-UNKNOWN": 9,
+    "4-UNSAT": 1329,
+    "4-UNKNOWN": 44,
+    "4-RELAXED": 33,
+    "2-UNKNOWN": 50,
+    "3-UNSAT": 131,
+    "1-RELAXED": 2
+  },
+  "recs": [
+    {
+      "S": 15,
+      "total": 5012,
+      "unresolved": 244
+    },
+    {
+      "S": 23,
+      "total": 1057,
+      "unresolved": 34
+    },
+    {
+      "S": 141,
+      "total": 2804,
+      "unresolved": 2116
+    }
+  ]
+}

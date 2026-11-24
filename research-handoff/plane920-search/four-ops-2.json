@@ -1,0 +1,180 @@
+{
+  "ids": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "arg": 2,
+  "limit": 10000,
+  "rows": [
+    75,
+    78,
+    83,
+    86,
+    105,
+    108,
+    116,
+    142,
+    53,
+    60,
+    120,
+    338,
+    549,
+    609,
+    616,
+    774,
+    15,
+    46,
+    170,
+    402,
+    525,
+    649,
+    680,
+    788,
+    147,
+    169,
+    177,
+    270,
+    45,
+    57,
+    101,
+    195,
+    23,
+    51,
+    85,
+    201
+  ],
+  "results": [
+    {
+      "ops": 3,
+      "status": "UNKNOWN",
+      "ms": 329,
+      "rows": 44
+    },
+    {
+      "ops": 5,
+      "status": "UNKNOWN",
+      "ms": 317,
+      "rows": 48
+    },
+    {
+      "ops": 6,
+      "status": "UNKNOWN",
+      "ms": 320,
+      "rows": 52
+    },
+    {
+      "ops": 9,
+      "status": "UNKNOWN",
+      "ms": 324,
+      "rows": 52
+    },
+    {
+      "ops": 10,
+      "status": "UNKNOWN",
+      "ms": 321,
+      "rows": 56
+    },
+    {
+      "ops": 12,
+      "status": "UNKNOWN",
+      "ms": 320,
+      "rows": 56
+    },
+    {
+      "ops": 17,
+      "status": "UNKNOWN",
+      "ms": 335,
+      "rows": 56
+    },
+    {
+      "ops": 18,
+      "status": "UNKNOWN",
+      "ms": 326,
+      "rows": 56
+    },
+    {
+      "ops": 20,
+      "status": "UNKNOWN",
+      "ms": 337,
+      "rows": 56
+    },
+    {
+      "ops": 24,
+      "status": "UNSAT",
+      "ms": 199,
+      "rows": 56
+    },
+    {
+      "ops": 33,
+      "status": "UNKNOWN",
+      "ms": 336,
+      "rows": 56
+    },
+    {
+      "ops": 34,
+      "status": "UNSAT",
+      "ms": 304,
+      "rows": 56
+    },
+    {
+      "ops": 36,
+      "status": "UNSAT",
+      "ms": 196,
+      "rows": 56
+    },
+    {
+      "ops": 40,
+      "status": "UNSAT",
+      "ms": 72,
+      "rows": 56
+    },
+    {
+      "ops": 48,
+      "status": "UNSAT",
+      "ms": 51,
+      "rows": 56
+    },
+    {
+      "ops": 65,
+      "status": "UNSAT",
+      "ms": 106,
+      "rows": 56
+    },
+    {
+      "ops": 66,
+      "status": "UNSAT",
+      "ms": 78,
+      "rows": 56
+    },
+    {
+      "ops": 68,
+      "status": "UNSAT",
+      "ms": 65,
+      "rows": 56
+    },
+    {
+      "ops": 72,
+      "status": "UNSAT",
+      "ms": 43,
+      "rows": 56
+    },
+    {
+      "ops": 80,
+      "status": "UNSAT",
+      "ms": 43,
+      "rows": 56
+    },
+    {
+      "ops": 96,
+      "status": "UNSAT",
+      "ms": 41,
+      "rows": 56
+    }
+  ],
+  "counts": {
+    "UNKNOWN": 10,
+    "UNSAT": 11
+  }
+}

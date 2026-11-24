@@ -1,0 +1,75 @@
+[
+  {
+    "ids": [
+      0,
+      1,
+      2
+    ],
+    "n": 8,
+    "rows": [
+      30,
+      46,
+      166,
+      195,
+      284,
+      329,
+      404,
+      420,
+      78,
+      83,
+      86,
+      105,
+      108,
+      113,
+      116,
+      139
+    ],
+    "solver": {
+      "status": "UNSAT",
+      "ms": 1002,
+      "vertices": 9,
+      "rows": 31,
+      "vars": 850,
+      "clauses": 11153
+    },
+    "certificate": {
+      "cnfFile": "control-triangle.cnf",
+      "proofFile": "control-triangle.lrat",
+      "vars": 850,
+      "clauses": 11153,
+      "adds": 50545,
+      "dels": 11749,
+      "empty": true,
+      "cnfSha256": "a169fc24d7fb6d9a305c0b773e826861885a317426c0a226778287b19539be73",
+      "proofSha256": "df7fa91c672e1627369d84786c1c73213b655036085324ecd1daf1b7bf5e8e37"
+    }
+  },
+  {
+    "ids": [
+      0,
+      1,
+      5
+    ],
+    "n": 8,
+    "rows": [],
+    "solver": {
+      "status": "UNSAT",
+      "ms": 680,
+      "vertices": 10,
+      "rows": 15,
+      "vars": 530,
+      "clauses": 7504
+    },
+    "certificate": {
+      "cnfFile": "control-concurrent.cnf",
+      "proofFile": "control-concurrent.lrat",
+      "vars": 530,
+      "clauses": 7504,
+      "adds": 35403,
+      "dels": 7276,
+      "empty": true,
+      "cnfSha256": "b13692cac3cc92b9808d1ba1660fc40c1bab0a469e5d9643b03b3f0f42105ca0",
+      "proofSha256": "9decc1805ab43178acc7c74e9bf4fa4759bbe263180110a1e4b8623f8ff7cf56"
+    }
+  }
+]

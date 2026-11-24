@@ -1,0 +1,11 @@
+{
+  "rank": 2,
+  "budget": 110000,
+  "verdict": "UNSAT",
+  "check": {
+    "add": 1196,
+    "deleted": 39,
+    "proofSha256": "7400eff401ee408b69f590d9065551e3b38659d1a48088bba888cda3d8ed3bd8",
+    "empty": true
+  }
+}

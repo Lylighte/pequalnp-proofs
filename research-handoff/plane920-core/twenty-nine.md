@@ -1,0 +1,18 @@
+# Every circuit for L-meta-920 has at least 29 binary gates
+
+This is a mathematical reduction with a finite computation for the project instance. The unconditional bound checked in Lean is 25. The requested lower bound is 39.
+
+The sparse dual has thirteen distinct isolated AND terminals. The earlier argument in `twenty-eight-candidates.md` reduces a potential circuit of size 28 to eight OR gates and seven hidden AND gates. Smaller circuits were excluded in `twenty-eight.md`.
+
+Resolve the first four OR gates by choosing one input per gate. On any retained positive line this preserves acceptance, and resolving gates can only decrease values elsewhere. If any resolution keeps five or more lines, the resulting circuit has at most four OR gates and seven hidden AND gates for five complete lines. This is impossible by `../plane920-search/five-lines-seven-helpers.md`. That result accounts for the feasible three-line, two-OR, five-helper core. Consequently all four-gate prefixes occur, up to the checked plane symmetries and normalizations, in the exceptional catalogue `../plane920-search/branch-game-four-orbits.gz`. The reader in `unrestricted-prefix.cjs` verifies the digest of the expanded catalogue.
+
+On the complete family, every single compulsory hidden AND is active on at least four positive rows, and any two combined are active on at least eight. Otherwise removing the inactive gates would leave ten targets with at most six helpers or six targets with at most five. These smaller-family lower bounds, and those for one, two and three targets, are proved in `../plane920-math/partial-helper-proof.md`. Applying the corresponding subset tests leaves 432 of 1,217 prefixes.
+
+Extend each surviving prefix by both actual inputs of the next OR, modulo its stabilizer. For each retained family S and every nonempty subset T, preserve both arms of a fixed OR only when each wins on at least one row of T. Bypassing all other fixed ORs preserves all original signal values on T by induction and only decreases them elsewhere. Subtract the compulsory shared helpers absent on T and the helpers private to retained rows outside T before applying the small-family lower bounds to T. The private and shared charges count distinct physical gates. The search allows unrestricted conjunctions of available positive signatures when testing resolutions of the remaining OR gates. It gives unresolved cases the benefit of every search cutoff.
+
+| OR gate extended | Input prefixes surviving the previous step | Normalized operand pairs | Pairs after helper tests | Stabilizer representatives tested | Unresolved | Cutoffs |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Fifth | 432 | 1,040,960 | 99,902 | 29,066 | 434 | 0 |
+| Sixth | 434 | 3,369,610 | 109,131 | 62,704 | 0 | 0 |
+
+The final two OR gates are included in each sixth-gate test. The zero unresolved count rules out the last 28-gate case. For reproduction, invoke the project Node on `critical-next.cjs FROM END 8000` for the ranges [0,304), [304,608), [608,912), [912,1217). After completing all four shards invoke `critical-deepen.cjs 6 FROM END 8000` on the same ranges. Exact per-prefix results are in `unrestricted/critical-fifth-*-8000.jsonl` and `unrestricted/critical-level-6-*-8000.jsonl`. The sorted keys at the second level match all 434 first-level survivors exactly. The independent program `../plane920-search/audit-strong-28.cjs` checks the join and compares the helper-charge calculation on all 8,192 retained families of thirteen sampled prefixes, for 106,496 comparisons. Its receipt is `../plane920-search/audit-strong-28.json`.
